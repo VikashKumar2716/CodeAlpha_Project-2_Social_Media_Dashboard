@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="nav-left">
+                <div class="bars ">
+                    <i class="fa-solid fa-bars i"></i>
+                </div>
+                <div class="logo">
+                    <h2>Social Media Dashboard</h2>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="nav-right-left">
+                    <div class="searchs icons">
+                        <i class="fa-solid fa-magnifying-glass i"></i>
+                    </div>
+                    <div class="search"><input type="text" placeholder="Search..."></div>   
+                </div>
+                <div class="sea icons">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=800"  alt="smile img">
+                    <h3>Harpreet Singh</h3>
+                    <p>Content Creater</p>
+                </div>
+                <div class="menu">
+                    <div class="menu-detail">
+                        <a href="#">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </div>
+                    <div class="menu-detail">
+                        <a href="#">
+                            <i class="fa-solid fa-gifts"></i>
+                            <span>Campaign</span>
+                        </a>
+                    </div>
+                    <div class="menu-detail">
+                        <a href="#">
+                            <i class="fa-solid fa-headset"></i>
+                            <span>Support Center</span>
+                        </a>
+                    </div>
+                    <div class="menu-detail">
+                        <a href="#">
+                            <i class="fa-solid fa-user-secret"></i>
+                            <span>Security</span>
+                        </a>
+                    </div>
+                    <div class="menu-detail">
+                        <a href="#">
+                            <i class="fa-sharp fa-solid fa-gear"></i>
+                            <span>Setting</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="left-cont">
+                <h2>Statistics</h2>
+                <div class="card-cont"> 
+                    <div class="card">
+                        <div class="mini-logo">
+                            <i class="fa-brands fa-instagram"></i>
+                            <h1>Instagram</h1>
+                        </div>
+                        <h1 class="count">2.4M</h1>
+                        <h4>Followers</h4>
+                        <p>Live Count:- Loading...</p>
+                        <div class="drop-down">
+                            <button class="btn" id="0">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Details</a><a href="#">Download</a><a href="#">Share</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="mini-logo">
+                            <i class="fa-brands fa-youtube"></i>
+                            <h1>Youtube</h1>
+                        </div>
+                        
+                        <h1 class="count">6.03M</h1>
+                        <h4>Subscribers</h4>
+                        <p>Live Count:- Loading...</p>
+                        <div class="drop-down">
+                            <button class="btn" id="1">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Details</a><a href="#">Download</a><a href="#">Share</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="mini-logo">
+                            <i class="fa-brands fa-facebook"></i>
+                            <h1>Facebook</h1>
+                        </div>
+                        <h1 class="count">287K</h1>
+                        <h4>Followers</h4>
+                        <p>Live Count:- Loading...</p>
+                        <div class="drop-down">
+                            <button class="btn" id="2">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Details</a>
+                                <a href="#">Download</a>
+                                <a href="#">Share</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="mini-logo">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <h1>Twitter</h1>
+                        </div>
+                        <h1 class="count">17.4M</h1>
+                        <h4>Followers</h4>
+                        <p>Live Count:- Loading...</p>
+                        <div class="drop-down">
+                            <button class="btn" id="3">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Details</a><a href="#">Download</a><a href="#">Share</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-cont">
+                <div class="big-box">
+                    <h2>OverView Today</h2>
+                    <div class="box-cont">
+                        <div class="box">
+                            <div class="upper">
+                                <h5>Page View</h5>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class="lower">
+                                <h6>153</h6>
+                                <p class="p">+7%</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="upper">
+                                <h5>Likes</h5>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class="lower">
+                                <h6>78</h6>
+                                <p class="m">-5%</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="upper">
+                                <h5>Likes</h5>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="lower">
+                                <h6>9872</h6>
+                                <p class="p">+467%</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="upper">
+                                <h5>Page View</h5>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="lower">
+                                <h6>153K</h6>
+                                <p class="p">+2352%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
